@@ -1,0 +1,53 @@
+明白了。我会基于你提供的信息创建一个简洁的个人网页。以下是完整的HTML文件：
+
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>丁坤鹏的个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>丁坤鹏</h1>
+        <h2>网络空间安全专业</h2>
+        <p>您好！我是丁坤鹏，就读于中国科学技术大学，专攻网络空间安全。我对网络安全、密码学、和计算机科学有着浓厚的兴趣，致力于在这些领域探索和研究最新的技术和方法。</p>
+        
+        <div class="contact">
+            <h2>联系方式</h2>
+            <p>您可以通过以下方式与我联系：</p>
+            <p><a href="https
